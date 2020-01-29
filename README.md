@@ -4,6 +4,19 @@ Uses the Dynatrace API to build a list of host files that are being monitored.
 
 Outputs to `host_logs[datetime].csv` and `process_group_logs[datetime].csv`
 
+## Installation
+
+Create a virtual environment
+
+```python3 -m venv venv```
+
+Activate it
+
+```source venv/bin/activate```
+
+Install the dependencies
+
+```pip3 install -r requirements.txt```
 
 ## Usage
 
