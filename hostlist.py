@@ -22,7 +22,7 @@ def main():
 
     
     parser.add_argument("url", 
-                        help="tennant url with format https://[tennant_key].live.dynatrace.com")
+            help="tennant url with format  SaaS:    https://[tennant_key].live.dynatrace.com OR                                                Managed: https://{your-domain}/e/{your-environment-id}")
     parser.add_argument("token", type=str,
                         help="Your API Token generated with Access",)
     parser.add_argument("-q", "--quiet",

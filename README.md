@@ -26,7 +26,8 @@ Get a list of hosts
 
 ```positional arguments:
   url                  tennant url with format
-                       https://[tennant_key].live.dynatrace.com
+                       SaaS:    https://[tennant_key].live.dynatrace.com OR
+		       Managed: https://{your-domain}/e/{your-environment-id}
   token                Your API Token generated with Access
 
 optional arguments:
